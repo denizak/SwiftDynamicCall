@@ -1,0 +1,3 @@
+protocol Vehicle {
+    func drive() 
+}

@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug SwiftDynamicCall",
+            "program": "${workspaceFolder:SwiftDynamicCall}/.build/debug/SwiftDynamicCall",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftDynamicCall}",
+            "preLaunchTask": "swift: Build Debug SwiftDynamicCall"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release SwiftDynamicCall",
+            "program": "${workspaceFolder:SwiftDynamicCall}/.build/release/SwiftDynamicCall",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftDynamicCall}",
+            "preLaunchTask": "swift: Build Release SwiftDynamicCall"
+        }
+    ]
+}
