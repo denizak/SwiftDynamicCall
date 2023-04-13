@@ -1,3 +1,3 @@
 # SwiftDynamicCall
 
-A description of this package.
+A sample on direct call and polymorphic call of Swift
